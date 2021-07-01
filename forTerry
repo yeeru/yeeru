@@ -1,12 +1,28 @@
 #include<stdio.h>
 
-chr Name[];
-int YY,MM,DD;
+int main(){
+	
+char Name[100];
+int YYY[3],MM[2],DD[2];
 
 
 do{
-  printf("Please enter your name：");
-  scanf("%c".&Name);
-  }while(Name!=Terry)
-  
-printf("Right!")
+	fflush(stdin);
+	printf("Please enter your English name:\n");
+	scanf("%s",Name);
+}while(strcmp(Name,"Terry") != 0);
+
+
+do{
+	fflush(stdin);
+	printf("When is our first day..?(Hint:YYY MM DD)\n");
+	scanf("%s""%s""%s",YYY,MM,DD);
+}while(strcmp(YYY,"110") != 0 || strcmp(MM,"01") != 0 || strcmp(DD,"13") != 0);
+
+
+printf("Right!\n");
+
+
+return 0;
+
+}
