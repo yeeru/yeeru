@@ -1,1 +1,12 @@
+#include<stdio.h>
 
+chr Name[];
+int YY,MM,DD;
+
+
+do{
+  printf("Please enter your name：");
+  scanf("%c".&Name);
+  }while(Name!=Terry)
+  
+printf("Right!")
